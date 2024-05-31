@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, ScrollView, TextInput, Image, TouchableOpacity } from 'react-native';
 import Categories from './components/categories';
+import Ongoing from './components/ongoing';
 
 export default function App() {
   return (
@@ -40,8 +41,13 @@ export default function App() {
         <Categories imagesrc={require('./img/3d-hygge-isometric-view-of-young-girl-and-young-man-having-dinner-together-1.png')} header={'Eat'} tasks={'12 tasks'} />
         <Categories imagesrc={require('./img/3d-hygge-isometric-view-of-man-working-online.png')} header={'Call'} tasks={'12 tasks'} />
       </ScrollView>
+
+      <Text style={styles.subheader}>Ongoing Tasks</Text>
+      <Ongoing />
       <StatusBar style="auto" />
     </ScrollView>
+
+    
 
   );
   
