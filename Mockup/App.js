@@ -45,7 +45,8 @@ const styles = StyleSheet.create({
     fontSize: '20px',
     fontWeight: '700',
     marginTop: '30px',
-    marginBottom:'10px'
+    marginBottom:'10px',
+    fontFamily:'lato'
   },
 
 });

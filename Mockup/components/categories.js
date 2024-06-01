@@ -27,10 +27,13 @@ const styles = StyleSheet.create({
   catHeader:{
     fontWeight: '700',
     fontSize: '16px',
+    fontFamily:'lato'
   },
 
   tasks:{
     fontSize:'12px',
+    fontFamily:'lato'
+
   },
 
   tasksImg:{

@@ -46,6 +46,7 @@ const styles = StyleSheet.create({
     Item:{
         fontSize: '16px',
         fontWeight: '700',
+        fontFamily:'lato'
     }
   })
 

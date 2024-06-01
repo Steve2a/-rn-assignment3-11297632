@@ -29,12 +29,14 @@ const styles = StyleSheet.create({
     header: {
       fontSize: 32,
       fontWeight: '700',
+      fontFamily:'lato'
       
     },
     
     miniheader: {
       fontSize: '12px',
-      fontWeight: '500'
+      fontWeight: '500',
+      fontFamily:'lato'
   
     },
   
