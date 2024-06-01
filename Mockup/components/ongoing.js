@@ -36,14 +36,14 @@ const styles = StyleSheet.create({
         marginBottom: '15px',
         borderRadius: '15px',
         justifyContent: 'center',
-        paddingLeft:'20px'
+        paddingLeft:'20px',
+        border:'1px solid #E8D1BA'
 
 
 
     }, 
 
     Item:{
-        fontFamily: 'lato',
         fontSize: '16px',
         fontWeight: '700',
     }
