@@ -1,49 +1,47 @@
 import React from 'react';
 import { View, Text, StyleSheet, Image } from 'react-native'
 
-const Categories = ({imagesrc, header,tasks }) => {
-  return ( 
+const Categories = ({ imagesrc, header, tasks }) => {
+  return (
     <View style={styles.categoriescard}>
-      <Text style={styles.catHeader}>{ header }</Text>
-      <Text style={styles.tasks}>{ tasks }</Text>
+      <Text style={styles.catHeader}>{header}</Text>
+      <Text style={styles.tasks}>{tasks}</Text>
       <Image
-          source={ imagesrc } 
-          style={styles.tasksImg}
-        />
+        source={imagesrc}
+        style={styles.tasksImg}
+      />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  categoriescard:{
+  categoriescard: {
     width: '186px',
     height: '192px',
     backgroundColor: '#FBF9F7',
     borderRadius: '15px',
-    padding:'15px',
-    marginRight:'30px'
+    padding: '15px',
+    marginRight: '30px'
   },
 
-  catHeader:{
+  catHeader: {
     fontWeight: '700',
     fontSize: '16px',
-    fontFamily:'lato'
+    fontFamily: 'lato'
   },
 
-  tasks:{
-    fontSize:'12px',
-    fontFamily:'lato'
+  tasks: {
+    fontSize: '12px',
+    fontFamily: 'lato'
 
   },
 
-  tasksImg:{
+  tasksImg: {
     height: '130px',
     width: '130px',
-    marginLeft:'20px',
+    marginLeft: '20px',
 
   }
-
-
 })
 
 export default Categories;

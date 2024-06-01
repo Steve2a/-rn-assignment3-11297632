@@ -23,7 +23,6 @@ const Ongoing = () => {
         ]}
 
         renderItem={ ({item}) => <View style={styles.Itemcard}> <Text style={styles.Item} >{ item.text }</Text> </View> }
-
     />
   );
 }
@@ -38,9 +37,6 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         paddingLeft:'20px',
         border:'1px solid #E8D1BA'
-
-
-
     }, 
 
     Item:{
